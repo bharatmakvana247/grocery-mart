@@ -16,28 +16,43 @@ class CategorySeeder extends Seeder
     public function run()
     {
         Category::create([
-            'brand_name' => '1',
-            'category_name' => 'Mobiles',
+            'brand_name' => '14',
+            'category_name' => 'Nuts',
+        ]);
+
+        Category::create([
+            'category_name' => 'OIL',
+        ]);
+
+        Category::create([
+            'category_name' => 'Noodles',
         ]);
         Category::create([
-            'brand_name' => '1',
-            'category_name' => 'Laptop',
+            'category_name' => 'Sugar',
         ]);
         Category::create([
-            'brand_name' => '1',
-            'category_name' => 'Pendrive',
+            'category_name' => 'Chocolate',
         ]);
         Category::create([
-            'brand_name' => '2',
-            'category_name' => 'Desktop',
+            'category_name' => 'Cold Drink',
         ]);
         Category::create([
-            'brand_name' => '3',
-            'category_name' => 'Headphone',
+            'category_name' => 'KetchUp',
         ]);
         Category::create([
-            'brand_name' => '1',
-            'category_name' => 'Smartwatch',
+            'category_name' => 'Beautic',
+        ]);
+        Category::create([
+            'category_name' => 'Chips',
+        ]);
+        Category::create([
+            'category_name' => 'Salt',
+        ]);
+        Category::create([
+            'category_name' => 'Wheat',
+        ]);
+        Category::create([
+            'category_name' => 'Vegetable',
         ]);
     }
 }

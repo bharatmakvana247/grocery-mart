@@ -15,8 +15,9 @@ class Category extends Model
         'category_name', 'brand_name'
     ];
 
-    public function brand()
+    public function product_list()
     {
-        return $this->hasOne(Brand::class, 'brand_id', 'brand_name');
+        return $this->hasMany(Product::class, 'category_name', 'category_id');
+        //                       Model           Product tbl,   Category tbl
     }
 }

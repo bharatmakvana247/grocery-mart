@@ -25,6 +25,8 @@ class AdminMiddleware
         if (Auth::guard($guard)->check()) {
             if (Auth::user()->user_type == 'SuperAdmin') {
                 return  $next($request);
+            } elseif (Auth::user()->user_type == 'User') {
+                return redirect()->route('front.dashboard')->with('success', "Welcome Grocery Mart");
             } else {
                 return redirect()->route('admin.login')->with('error', "Sorry Only Admin can Access it..");
             }

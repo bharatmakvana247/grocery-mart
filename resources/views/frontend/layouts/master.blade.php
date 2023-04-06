@@ -18,7 +18,7 @@
     @include('frontend.theme.banner')
     <!-- //banner -->
 
-    @yield('frontend.Content')
+    @yield('frontend.content')
 
     <!-- News Letter -->
     @include('frontend.theme.newsLetter')

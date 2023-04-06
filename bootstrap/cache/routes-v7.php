@@ -44,7 +44,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Q7kCO25cREjSkb4H',
+            '_route' => 'generated::CTtuvBmi9NukBguK',
           ),
           1 => NULL,
           2 => 
@@ -122,7 +122,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Ibtzon4znaonLPTk',
+            '_route' => 'generated::NyaEuXlZL8X9IHk2',
           ),
           1 => NULL,
           2 => 
@@ -142,7 +142,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::FUYUD4b6PdQPWJnG',
+            '_route' => 'generated::4Pkl4g2TbZUnPDb7',
           ),
           1 => NULL,
           2 => 
@@ -162,7 +162,87 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::BzFWduJadTkBvKVd',
+            '_route' => 'generated::yuMNAK4p70V5rkrm',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'front.dashboard',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/front/about' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'front.about',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/front/faq' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'front.faq',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/front/contact' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'front.contact',
           ),
           1 => NULL,
           2 => 
@@ -183,26 +263,6 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'welcome',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'front.index',
           ),
           1 => NULL,
           2 => 
@@ -360,7 +420,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'admin.generated::uMMZrEe9kQ8gxrXg',
+            '_route' => 'admin.generated::ypdkdjUCqvBZcvVG',
           ),
           1 => NULL,
           2 => 
@@ -400,7 +460,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'admin.generated::VEhvYCi6CclX1EsV',
+            '_route' => 'admin.generated::H6x2SrX5XL5qUrJ2',
           ),
           1 => NULL,
           2 => 
@@ -440,7 +500,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'admin.generated::9iEfYTcl0PeaQNCs',
+            '_route' => 'admin.generated::7Gc1UZeL1C3wdDd8',
           ),
           1 => NULL,
           2 => 
@@ -1128,7 +1188,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Q7kCO25cREjSkb4H' => 
+    'generated::CTtuvBmi9NukBguK' => 
     array (
       'methods' => 
       array (
@@ -1140,7 +1200,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => '\\Illuminate\\Routing\\ViewController@__invoke',
         'controller' => '\\Illuminate\\Routing\\ViewController',
-        'as' => 'generated::Q7kCO25cREjSkb4H',
+        'as' => 'generated::CTtuvBmi9NukBguK',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1273,7 +1333,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Ibtzon4znaonLPTk' => 
+    'generated::NyaEuXlZL8X9IHk2' => 
     array (
       'methods' => 
       array (
@@ -1294,7 +1354,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::Ibtzon4znaonLPTk',
+        'as' => 'generated::NyaEuXlZL8X9IHk2',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1310,7 +1370,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::FUYUD4b6PdQPWJnG' => 
+    'generated::4Pkl4g2TbZUnPDb7' => 
     array (
       'methods' => 
       array (
@@ -1327,13 +1387,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:297:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000063e0000000000000000";}";s:4:"hash";s:44:"UYWGdYfEkHMFuSSQOykqdWuiKVktzhLCfzrA5fx3xQQ=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006440000000000000000";}";s:4:"hash";s:44:"VYhvyT3FfUs+vszWBMgo7k0IbDr2ySmPJtueT2+EkgA=";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::FUYUD4b6PdQPWJnG',
+        'as' => 'generated::4Pkl4g2TbZUnPDb7',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1349,7 +1409,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::BzFWduJadTkBvKVd' => 
+    'generated::yuMNAK4p70V5rkrm' => 
     array (
       'methods' => 
       array (
@@ -1375,13 +1435,161 @@ app('router')->setCompiledRoutes(
     return \\response()->json([
         \'message\' => \'All cache removed successfully.\'
     ]);
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006400000000000000000";}";s:4:"hash";s:44:"VpAdaqEaZ2bJBnraArh3C9A1DivU9CossNto5iPjVMQ=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006460000000000000000";}";s:4:"hash";s:44:"tpKBbOTIndu2eYK3I3SmASjvUomzwn+AsrjSQUnxLyc=";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::BzFWduJadTkBvKVd',
+        'as' => 'generated::yuMNAK4p70V5rkrm',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'front.dashboard' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => '/',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\frontend\\HomeController@dashboard',
+        'controller' => 'App\\Http\\Controllers\\frontend\\HomeController@dashboard',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'front.dashboard',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'front.about' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'front/about',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\frontend\\HomeController@about',
+        'controller' => 'App\\Http\\Controllers\\frontend\\HomeController@about',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'front.about',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'front.faq' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'front/faq',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\frontend\\HomeController@faq',
+        'controller' => 'App\\Http\\Controllers\\frontend\\HomeController@faq',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'front.faq',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'front.contact' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'front/contact',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\frontend\\HomeController@contact',
+        'controller' => 'App\\Http\\Controllers\\frontend\\HomeController@contact',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'front.contact',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1419,43 +1627,6 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'welcome',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'front.index' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => '/',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-        ),
-        'uses' => 'App\\Http\\Controllers\\frontend\\HomeController@index',
-        'controller' => 'App\\Http\\Controllers\\frontend\\HomeController@index',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-        'as' => 'front.index',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1735,7 +1906,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'admin.generated::uMMZrEe9kQ8gxrXg' => 
+    'admin.generated::ypdkdjUCqvBZcvVG' => 
     array (
       'methods' => 
       array (
@@ -1752,7 +1923,7 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'App\\Http\\Controllers\\AuthController@loginWithFacebook',
         'controller' => 'App\\Http\\Controllers\\AuthController@loginWithFacebook',
-        'as' => 'admin.generated::uMMZrEe9kQ8gxrXg',
+        'as' => 'admin.generated::ypdkdjUCqvBZcvVG',
         'namespace' => 'Admin',
         'prefix' => '/admin',
         'where' => 
@@ -1811,7 +1982,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'admin.generated::VEhvYCi6CclX1EsV' => 
+    'admin.generated::H6x2SrX5XL5qUrJ2' => 
     array (
       'methods' => 
       array (
@@ -1828,7 +1999,7 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'App\\Http\\Controllers\\AuthController@loginWithGithub',
         'controller' => 'App\\Http\\Controllers\\AuthController@loginWithGithub',
-        'as' => 'admin.generated::VEhvYCi6CclX1EsV',
+        'as' => 'admin.generated::H6x2SrX5XL5qUrJ2',
         'namespace' => 'Admin',
         'prefix' => '/admin',
         'where' => 
@@ -1887,7 +2058,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'admin.generated::9iEfYTcl0PeaQNCs' => 
+    'admin.generated::7Gc1UZeL1C3wdDd8' => 
     array (
       'methods' => 
       array (
@@ -1904,7 +2075,7 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'App\\Http\\Controllers\\AuthController@loginWithLinkedin',
         'controller' => 'App\\Http\\Controllers\\AuthController@loginWithLinkedin',
-        'as' => 'admin.generated::9iEfYTcl0PeaQNCs',
+        'as' => 'admin.generated::7Gc1UZeL1C3wdDd8',
         'namespace' => 'Admin',
         'prefix' => '/admin',
         'where' => 

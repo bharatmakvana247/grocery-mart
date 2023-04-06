@@ -134,7 +134,7 @@
                     [5, 10, 25, 50, 100],
                     [5, 10, 25, 50, 100],
                 ],
-                pageLength: 5,
+                pageLength: 10,
                 processing: true,
                 serverSide: true,
                 ajax: "{{ route('admin.category.index') }}",

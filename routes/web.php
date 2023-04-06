@@ -38,7 +38,13 @@ Route::get('/clear-cache', static function () {
 
 // ================================== FrontEnd =====================================================
 
-Route::get('/', [HomeController::class, 'index'])->name('front.index');
+
+Route::get('/', [HomeController::class, 'dashboard'])->name('front.dashboard');
+Route::get('/front/about', [HomeController::class, 'about'])->name('front.about');
+Route::get('/front/faq', [HomeController::class, 'faq'])->name('front.faq');
+Route::get('/front/contact', [HomeController::class, 'contact'])->name('front.contact');
+
+
 
 
 // ================================== Backend Before Login =====================================================

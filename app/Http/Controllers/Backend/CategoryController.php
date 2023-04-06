@@ -32,7 +32,7 @@ class CategoryController extends Controller
             $categories = Category::with('brand')->orderBy('category_id', 'desc');
             return DataTables::of($categories)->addIndexColumn()
                 ->editColumn('brand_id', function (Category $categories) {
-                    return $categories->brand->brand_name;
+                    return ($categories->brand_name);
                 })
                 ->addColumn('action', function () {
                     $actionBtn = '-';

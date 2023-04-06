@@ -19,19 +19,21 @@
     </div>
     <!-- //price range -->
     <!-- food preference -->
-    <div class="left-side">
-        <h3 class="agileits-sear-head">Food Preference</h3>
-        <ul>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Vegetarian</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Non-Vegetarian</span>
-            </li>
-        </ul>
-    </div>
+    @if (sizeof($category_list) > 0)
+        <div class="left-side">
+            <h3 class="agileits-sear-head">Category</h3>
+            <ul>
+                @foreach ($category_list as $list)
+                    <li>
+                        {{-- <input type="checkbox" class="checked" id="category_product"> --}}
+                        <input type='checkbox' id='checkallusers' value='{{ $list->category_id }}' name="category_list">
+                        <span class="span">{{ $list->category_name }}</span>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
     <!-- //food preference -->
     <!-- discounts -->
     <div class="left-side">
@@ -122,51 +124,7 @@
     </div>
     <!-- //reviews -->
     <!-- cuisine -->
-    <div class="left-side">
-        <h3 class="agileits-sear-head">Cuisine</h3>
-        <ul>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">South American</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">French</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Greek</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Chinese</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Japanese</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Italian</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Mexican</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Thai</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span">Indian</span>
-            </li>
-            <li>
-                <input type="checkbox" class="checked">
-                <span class="span"> Spanish </span>
-            </li>
-        </ul>
-    </div>
+
     <!-- //cuisine -->
     <!-- deals -->
     <div class="deal-leftmk left-side">
@@ -224,3 +182,24 @@
     </div>
     <!-- //deals -->
 </div>
+@section('frontend.scripts')
+    <script>
+        // $("#category_product").change(function() {
+        // $("input:checkbox #category_product").change(function() {
+        //     alert("check");
+        // });
+
+        $(document).ready(function() {
+            $("input[name = category_list]").change(function() {
+                // alert("jaymin");
+                alert($(this).val());
+                // $("#checkallusers").change(function() {
+                //     var checked = $(this).is(':checked'); // Checkbox state
+                //     
+
+                //     // Get the value of the checked checkbox with the name "category_list[]"
+
+            });
+        });
+    </script>
+@endsection
