@@ -9,7 +9,7 @@
         href="{{ asset('assets/admin/media/favicons/apple-touch-icon-180x180.png') }}">
     <link rel="stylesheet" id="css-main" href=" {{ asset('assets/admin/css/oneui.min.css') }}">
     {{-- Notify Css --}}
-    @notifyCss
+    {{-- @notifyCss --}}
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -23,5 +23,6 @@
     {{-- Start Custome Css Add --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/custome/custome.css') }}" />
     {{-- End Custome Css Add --}}
+    @notifyCss
     @yield('styles')
 </head>

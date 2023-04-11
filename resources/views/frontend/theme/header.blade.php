@@ -15,6 +15,7 @@
             window.scrollTo(0, 1);
         }
     </script>
+
     <!--//tags -->
     <link href="{{ asset('assets/front/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
     <link href="{{ asset('assets/front/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
@@ -26,6 +27,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/front/css/jquery-ui1.css') }}">
     <!-- fonts -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/front/css/flexslider.css') }}" type="text/css" media="screen" />
 
     @yield('frontend.styles')
 </head>

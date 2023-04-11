@@ -15,7 +15,15 @@ class HomeController extends Controller
     {
         $category_products = Category::with(['product_list'])->get();
         $category_list = Category::get();
-        return view('frontend.home', compact('category_products', 'category_list'));
+        return view('frontend.pages.product.home', compact('category_products', 'category_list'));
+    }
+
+    public function singleProduct($id)
+    {
+        $single_products = Product::with('category', 'brand')->where('product_id', $id)->first();
+        return view('frontend.pages.product.singleProduct', with([
+            'single_product' => $single_products
+        ]));
     }
 
     public function about()

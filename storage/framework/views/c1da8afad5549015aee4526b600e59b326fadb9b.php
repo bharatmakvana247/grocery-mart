@@ -1,5 +1,5 @@
-<script src="{{ asset('assets/front/js/jquery-2.1.4.min.js') }}"></script>
-<script src="{{ asset('assets/front/js/jquery.magnific-popup.js') }}"></script>
+<script src="<?php echo e(asset('assets/front/js/jquery-2.1.4.min.js')); ?>"></script>
+<script src="<?php echo e(asset('assets/front/js/jquery.magnific-popup.js')); ?>"></script>
 <script>
     $(document).ready(function() {
         $('.popup-with-zoom-anim').magnificPopup({
@@ -16,7 +16,7 @@
 
     });
 </script>
-<script src="{{ asset('assets/front/js/minicart.js') }}"></script>
+<script src="<?php echo e(asset('assets/front/js/minicart.js')); ?>"></script>
 <script>
     paypalm.minicartk
         .render(); //use only unique class names other than paypal1.minicart1.Also Replace same class name in css and minicart.min.js
@@ -52,9 +52,9 @@
             document.getElementById("password2").setCustomValidity('');
     }
 </script>
-<script src="{{ asset('assets/front/js/SmoothScroll.min.js') }}"></script>
-<script src="{{ asset('assets/front/js/move-top.js') }}"></script>
-<script src="{{ asset('assets/front/js/easing.js') }}"></script>
+<script src="<?php echo e(asset('assets/front/js/SmoothScroll.min.js')); ?>"></script>
+<script src="<?php echo e(asset('assets/front/js/move-top.js')); ?>"></script>
+<script src="<?php echo e(asset('assets/front/js/easing.js')); ?>"></script>
 <script>
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event) {
@@ -82,8 +82,8 @@
 
     });
 </script>
-<script src="{{ asset('assets/front/js/imagezoom.js') }}"></script>
-<script src="{{ asset('assets/front/js/jquery.flexslider.js') }}"></script>
+<script src="<?php echo e(asset('assets/front/js/imagezoom.js')); ?>"></script>
+<script src="<?php echo e(asset('assets/front/js/jquery.flexslider.js')); ?>"></script>
 <script>
     $(window).load(function() {
         $('.flexslider').flexslider({
@@ -92,7 +92,7 @@
         });
     });
 </script>
-<script src="{{ asset('assets/front/js/jquery.flexisel.js') }}"></script>
+<script src="<?php echo e(asset('assets/front/js/jquery.flexisel.js')); ?>"></script>
 <script>
     $(window).load(function() {
         $("#flexiselDemo1").flexisel({
@@ -120,4 +120,5 @@
 
     });
 </script>
-<script src="{{ asset('assets/front/js/bootstrap.js') }}"></script>
+<script src="<?php echo e(asset('assets/front/js/bootstrap.js')); ?>"></script>
+<?php /**PATH D:\grocery-mart\resources\views/frontend/theme/footerScript.blade.php ENDPATH**/ ?>

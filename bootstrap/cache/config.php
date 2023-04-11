@@ -10,7 +10,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:CEuie4wuSNtFigyAYqrzTpqfQV6Z5Z413h0BWMJeuSU=',
+    'key' => 'base64:A7N/dZ/ieFOo27nvJq1NNGAUp3OCQ9kdMm3rR2iyyQw=',
     'cipher' => 'AES-256-CBC',
     'maintenance' => 
     array (
@@ -44,10 +44,11 @@
       23 => 'Illuminate\\Translation\\TranslationServiceProvider',
       24 => 'Illuminate\\Validation\\ValidationServiceProvider',
       25 => 'Illuminate\\View\\ViewServiceProvider',
-      26 => 'App\\Providers\\AppServiceProvider',
-      27 => 'App\\Providers\\AuthServiceProvider',
-      28 => 'App\\Providers\\EventServiceProvider',
-      29 => 'App\\Providers\\RouteServiceProvider',
+      26 => 'Mckenziearts\\Notify\\LaravelNotifyServiceProvider',
+      27 => 'App\\Providers\\AppServiceProvider',
+      28 => 'App\\Providers\\AuthServiceProvider',
+      29 => 'App\\Providers\\EventServiceProvider',
+      30 => 'App\\Providers\\RouteServiceProvider',
     ),
     'aliases' => 
     array (
@@ -201,7 +202,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'D:\\laravel_panel\\storage\\framework/cache/data',
+        'path' => 'D:\\grocery-mart\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -489,13 +490,13 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\laravel_panel\\storage\\app',
+        'root' => 'D:\\grocery-mart\\storage\\app',
         'throw' => false,
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\laravel_panel\\storage\\app/public',
+        'root' => 'D:\\grocery-mart\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
         'throw' => false,
@@ -515,7 +516,7 @@
     ),
     'links' => 
     array (
-      'D:\\laravel_panel\\public\\storage' => 'D:\\laravel_panel\\storage\\app/public',
+      'D:\\grocery-mart\\public\\storage' => 'D:\\grocery-mart\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -554,13 +555,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'D:\\laravel_panel\\storage\\logs/laravel.log',
+        'path' => 'D:\\grocery-mart\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'D:\\laravel_panel\\storage\\logs/laravel.log',
+        'path' => 'D:\\grocery-mart\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -612,7 +613,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'D:\\laravel_panel\\storage\\logs/laravel.log',
+        'path' => 'D:\\grocery-mart\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -678,14 +679,13 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'D:\\laravel_panel\\resources\\views/vendor/mail',
+        0 => 'D:\\grocery-mart\\resources\\views/vendor/mail',
       ),
     ),
   ),
   'notify' => 
   array (
     'theme' => 'light',
-    'demo' => true,
     'timeout' => 5000,
     'preset-messages' => 
     array (
@@ -697,6 +697,7 @@
         'title' => 'User Updated',
       ),
     ),
+    'demo' => true,
   ),
   'queue' => 
   array (
@@ -824,7 +825,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'D:\\laravel_panel\\storage\\framework/sessions',
+    'files' => 'D:\\grocery-mart\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -844,9 +845,9 @@
   array (
     'paths' => 
     array (
-      0 => 'D:\\laravel_panel\\resources\\views',
+      0 => 'D:\\grocery-mart\\resources\\views',
     ),
-    'compiled' => 'D:\\laravel_panel\\storage\\framework\\views',
+    'compiled' => 'D:\\grocery-mart\\storage\\framework\\views',
   ),
   'flare' => 
   array (
@@ -921,7 +922,7 @@
     array (
     ),
     'enable_runnable_solutions' => NULL,
-    'remote_sites_path' => 'D:\\laravel_panel',
+    'remote_sites_path' => 'D:\\grocery-mart',
     'local_sites_path' => '',
     'housekeeping_endpoint_prefix' => '_ignition',
     'settings_file_path' => '',
